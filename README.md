@@ -1,24 +1,34 @@
-# SvelteMVP
-All needed configs for fast start at Svelte JS
+# ST-template
 
-[More info about Svelte](https://svelte.dev/tutorial/basics)
+## Svelte.js, Typescript template
 
-* Start
+The default [Svelte](https://github.com/sveltejs/template) template, available for Rollup and webpack.
 
-        git clone https://github.com/Zimtir/SvelteMVP
-        cd SvelteMVP
-        npm install
-        
-* Dev
+## Getting started
 
-        npm run dev
-        
-        open browser at localhost:5000
+### Using `degit`
 
-* Build
+[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `svelte-template`:
 
-        npm run build
+```bash
+# for Rollup
+npx degit "Zimtir/ST-template#rollup" my-app
+```
 
-        you can checkout public/bundle.js 
+### Using GitHub templates
 
-* Added rollup.config.js for hot-reload
+Alternatively, you can use GitHub's template feature with the [svelte-template-rollup](https://github.com/Zimtir/ST-template)
+
+### Running the project
+
+However you get the code, you can install dependencies and run the project in development mode with:
+
+```bash
+cd my-app
+npm install # or yarn
+npm run dev
+```
+
+Open up [localhost:5000](http://localhost:5000) and start clicking around.
+
+Consult [svelte.dev](https://svelte.dev) for help getting started.
