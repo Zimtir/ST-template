@@ -1,9 +1,9 @@
-import App from "./App.svelte";
+import App from './App.svelte'
 
-document.querySelectorAll("#svelte-widget").forEach((element: HTMLElement) => {
+document.querySelectorAll('#svelte-widget').forEach((element: HTMLElement) => {
   if (!element.hasChildNodes()) {
     new App({
-      target: element
-    });
+      target: element,
+    })
   }
-});
+})
