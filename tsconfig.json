@@ -1,0 +1,13 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"],
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "ESNEXT",
+    "strict": false,
+    "moduleResolution": "node",
+    "types": ["@pyoner/svelte-types"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}
