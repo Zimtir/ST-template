@@ -12,7 +12,7 @@ The default [Svelte](https://github.com/sveltejs/template) template, available f
 
 ```bash
 # for Rollup
-npx degit "Zimtir/ST-template#rollup" my-app
+npx degit "Zimtir/ST-template" my-app
 ```
 
 ### Using GitHub templates
